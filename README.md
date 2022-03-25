@@ -48,8 +48,7 @@ $ git clone https://github.com/andrejr971/nubank.git
 $ cd nubank
 ```
 
+
 ---
 
-<h4 align="center">
-    Feito by André Junior :wave: [portifólio](https://andrejr.dev)
-</h4>
+Feito by André Junior :wave: [portifólio](https://andrejr.dev)
