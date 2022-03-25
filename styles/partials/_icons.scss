@@ -1,0 +1,187 @@
+.dropshadow {
+  filter: drop-shadow(0px 51px 80px rgba(169, 80, 196, 0.08)) drop-shadow(0px 15.375px 24.1177px rgba(169, 80, 196, 0.0521271)) drop-shadow(0px 6.38599px 10.0172px rgba(169, 80, 196, 0.04)) drop-shadow(0px 2.30969px 3.62304px rgba(169, 80, 196, 0.0278729));
+}
+
+.bg-icon-mobile {
+  &::after {
+    background-image: url('../svg/icon-mobile.svg');
+    background-size: cover;
+
+    transition: .5s ease;
+    cursor: pointer;
+
+    filter: drop-shadow(0px 16px 24px rgba(169,80,196, 0.25));
+  }
+
+  &:hover {
+    &::after {
+      transform: scale(1.05);
+    }
+  }
+}
+
+.bg-icon-card {
+  &::after {
+    background-image: url('../svg/icon-card.svg');
+    background-size: cover;
+
+    transition: .5s ease;
+    cursor: pointer;
+
+    filter: drop-shadow(0px 16px 24px rgba(169,80,196, 0.25));
+  }
+
+  &:hover {
+    &::after {
+      transform: scale(1.05);
+    }
+  }
+}
+
+.bg-icon-contactless {
+  &::after {
+    background-image: url('../svg/icon-contactless.svg');
+    background-size: cover;
+
+    transition: .5s ease;
+    cursor: pointer;
+
+    filter: drop-shadow(0px 16px 24px rgba(169,80,196, 0.25));
+  }
+
+  &:hover {
+    &::after {
+      transform: scale(1.05);
+    }
+  }
+}
+
+.bg-icon-time {
+  &::after {
+    background-image: url('../svg/icon-time.svg');
+    background-size: cover;
+
+    transition: .5s ease;
+    cursor: pointer;
+
+    filter: drop-shadow(0px 16px 24px rgba(169,80,196, 0.25));
+  }
+
+  &:hover {
+    &::after {
+      transform: scale(1.05);
+    }
+  }
+}
+
+.bg-icon-cash {
+  &::after {
+    background-image: url('../svg/icon-cash.svg');
+    background-size: cover;
+
+    transition: .5s ease;
+    cursor: pointer;
+
+    filter: drop-shadow(0px 16px 24px rgba(169,80,196, 0.25));
+  }
+
+  &:hover {
+    &::after {
+      transform: scale(1.05);
+    }
+  }
+}
+
+.bg-icon-transfer {
+  &::after {
+    background-image: url('../svg/icon-transfer.svg');
+    background-size: cover;
+
+    transition: .5s ease;
+    cursor: pointer;
+
+    filter: drop-shadow(0px 16px 24px rgba(169,80,196, 0.25));
+  }
+
+  &:hover {
+    &::after {
+      transform: scale(1.05);
+    }
+  }
+}
+
+.bg-icon-config {
+  &::after {
+    background-image: url('../svg/icon-config.svg');
+    background-size: cover;
+
+    transition: .5s ease;
+    cursor: pointer;
+
+    filter: drop-shadow(0px 16px 24px rgba(169,80,196, 0.25));
+  }
+
+  &:hover {
+    &::after {
+      transform: scale(1.05);
+    }
+  }
+}
+
+.bg-icon-phone {
+  &::after {
+    background-image: url('../svg/icon-phone.svg');
+    background-size: cover;
+
+    transition: .5s ease;
+    cursor: pointer;
+
+    filter: drop-shadow(0px 16px 24px rgba(169,80,196, 0.25));
+  }
+
+  &:hover {
+    &::after {
+      transform: scale(1.05);
+    }
+  }
+}
+
+.bg-icon-check {
+  &::after {
+    background-image: url('../svg/icon-check.svg');
+    background-size: cover;
+
+    transition: .5s ease;
+    cursor: pointer;
+
+    width: 40px;
+    height: 40px;
+
+    left: 8px;
+    top: 16px;
+
+    filter: drop-shadow(0px 16px 24px rgba(169,80,196, 0.25));
+  }
+
+  &:hover {
+    &::after {
+      transform: scale(1.05);
+    }
+  }
+}
+
+.icon {
+  filter: drop-shadow(0px 16px 24px rgba(169,80,196, 0.25));
+
+  transition: .5s ease;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.icon-networks {
+  max-width: 48px;
+  padding: 8px;
+}
