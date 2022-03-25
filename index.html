@@ -11,6 +11,7 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -31,7 +32,7 @@
         <a href="#">Login</a>
       </nav>
 
-      <nav class="navbar-desktop">
+      <nav class="navbar-desktop" data-aos="fade-up">
         <div class="navbar-desktop-item-1">
           <div class="logo" data-aos="fade-up" data-aos-delay="100">
             <a href="#">
@@ -160,7 +161,7 @@
     </div>
 
     <main class="container hero py-5">
-      <div class="flex-item-1 py-3">
+      <div class="flex-item-1 py-3" data-aos="fade-up" data-aos-delay="200">
         <h1>Ser Nubank é reinventar sua vida financeira.</h1>
         <p class="my-2">
           Conta com rendimento acima da poupança, cartão de crédito sem anuidade
@@ -189,7 +190,11 @@
         </div>
       </div>
 
-      <div class="flex-item-3 flex-center div-card py-4">
+      <div
+        class="flex-item-3 flex-center div-card py-4"
+        data-aos="fade-up"
+        data-aos-delay="400"
+      >
         <img
           src="svg/icon-card.svg"
           class="icon-card-hero dropshadow"
@@ -213,7 +218,11 @@
     <!-- SECTION PEOPLE -->
 
     <section class="container">
-      <div class="flex-item-4 flex-column">
+      <div
+        class="flex-item-4 flex-column"
+        data-aos="fade-up"
+        data-aos-delay="0"
+      >
         <h5>Para todos</h5>
         <h2>Completo.</h2>
         <p>
@@ -241,10 +250,14 @@
           <a href="#" class="link"> Confira os benefícios </a>
         </p>
       </div>
-      <div class="flex-item-3 mx-2">
+      <div class="flex-item-3 mx-2" data-aos="fade-up" data-aos-delay="200">
         <img src="svg/svg-people1.svg" alt="" onload="SVGInject(this)" />
       </div>
-      <div class="flex-item-1 flex-column mx-2 my-3">
+      <div
+        class="flex-item-1 flex-column mx-2 my-3"
+        data-aos="fade-up"
+        data-aos-delay="0"
+      >
         <img
           src="svg/svg-people2.svg"
           alt=""
@@ -263,7 +276,7 @@
 
     <!-- SECTION BEST -->
     <section class="container">
-      <div class="best px-3 py-4">
+      <div class="best px-3 py-4" data-aos="fade-up" data-aos-delay="0">
         <div class="flex-item-auto">
           <h5>O Melhor</h5>
           <h2>Por que Nubank?</h2>
@@ -309,10 +322,10 @@
 
     <!-- SECTION DIGITAL ACCOUNT -->
     <section class="container">
-      <div class="flex-item-1 p-3">
+      <div class="flex-item-1 p-3" data-aos="fade-up" data-aos-delay="200">
         <img src="svg/fignu2.svg" alt="" onload="SVGInject(this)" />
       </div>
-      <div class="flex-item-1">
+      <div class="flex-item-1" data-aos="fade-up" data-aos-delay="400">
         <h5>Conta digital</h5>
         <h2 class="mt-2">Tudo pelo App.</h2>
         <p class="my-2">
@@ -351,7 +364,7 @@
 
     <!-- SECTION CARD -->
     <section class="container">
-      <div class="flex-item-1">
+      <div class="flex-item-1" data-aos="fade-up" data-aos-delay="200">
         <h5>SEU ROXINHO</h5>
         <h2 class="mt-2">Crédito e débito.</h2>
         <p class="my-2">
@@ -381,17 +394,17 @@
           <a href="#" class="link">Saiba mais</a>
         </div>
       </div>
-      <div class="flex-item-1 p-3">
+      <div class="flex-item-1 p-3" data-aos="fade-up" data-aos-delay="400">
         <img src="svg/fignu3.svg" alt="" onload="SVGInject(this)" />
       </div>
     </section>
 
     <!-- SECTION SLIDER -->
-    <section class="box">
+    <section class="box" data-aos="fade-up" data-aos-delay="0">
       <h5>Depoimentos</h5>
       <h2>Todos amam o roxinho</h2>
     </section>
-    <section class="container-swiper">
+    <section class="container-swiper" data-aos="fade-up" data-aos-delay="200">
       <div class="swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide mx-2">
@@ -453,7 +466,7 @@
 
     <!-- SECTION APP NUBANK-->
     <section class="container">
-      <div class="flex-item-1">
+      <div class="flex-item-1" data-aos="fade-up" data-aos-delay="0">
         <h5>FAÇA SUA CONTA</h5>
         <h2 class="mt-2">Baixe. É gratuito.</h2>
         <p class="my-2">
@@ -471,7 +484,7 @@
           </a>
         </div>
       </div>
-      <div class="flex-item-1 p-3">
+      <div class="flex-item-1 p-3" data-aos="fade-up" data-aos-delay="200">
         <img src="svg/fignu4.svg" alt="" onload="SVGInject(this)" />
       </div>
     </section>
@@ -486,7 +499,11 @@
       />
 
       <section class="container">
-        <div class="flex-item-1 flex-center flex-column">
+        <div
+          class="flex-item-1 flex-center flex-column"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
           <h5 class="text-center">NUCONTA</h5>
           <h2 class="mt-2 text-center">
             O melhor dos bancos digitais. Pra você.
@@ -614,5 +631,14 @@
     <script src="js/app.js"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/slider.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        easing: 'ease-out-quart', //efeito
+        duration: 1000, //duração da animação
+        once: true, //animar só uma vez
+      });
+    </script>
   </body>
 </html>
